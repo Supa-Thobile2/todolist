@@ -1,6 +1,11 @@
+import "../css/component.css"
 function Login(){
     return(
         <div>
+            <div>
+                here it is
+            </div>
+            <div>
             <h1>Welcome Back</h1>
             <h2>Manage Your Checklist Easily</h2>
             <label for="email">Email</label><br></br>
@@ -16,6 +21,9 @@ function Login(){
             <span>
                 sign-in with google
             </span>
+
+            </div>
+           
 
         </div>
     )

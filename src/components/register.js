@@ -1,6 +1,11 @@
+import "../css/component.css"
 function Register(){
     return(
-        <div>
+        <div className="container">
+            <div>
+                Here it is
+            </div>
+            <div>
             <h1>Welcome Back</h1>
             <h2>Manage Your Checklist Easily</h2>
             <label for="name">Email</label><br></br>
@@ -20,6 +25,8 @@ function Register(){
                 sign-in with google
             </span>
 
+            </div>
+            
         </div>
     )
 }
