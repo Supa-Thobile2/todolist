@@ -1,9 +1,10 @@
+import empImg from '../assets/image1.jpg'
 import "../css/component.css"
 function Login(){
     return(
         <div>
             <div>
-                here it is
+                
             </div>
             <div>
             <h1>Welcome Back</h1>
