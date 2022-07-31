@@ -4,12 +4,13 @@ import Login from './components/login';
 import Register from './components/register';
 import Home from './components/home';
 
-import {BrowserRouter as Router, Switch, Route} from 'react-router-dom'
+// import {BrowserRouter as Router, Switch, Route} from 'react-router-dom'
+// import {BrowserRouter as Router, Switch, Route} from 'react-router-dom'
 
 function App() {
   return (
     <div className="App">
-       <Router>
+       {/* <Router>
       <Switch>
         <Route exact path="/" component={Login}></Route>
         <Route path="/sign-up" component={Register}></Route>
@@ -18,7 +19,7 @@ function App() {
         </Route>
       </Switch>
      
-    </Router>
+    </Router> */}
 
       <Home/>
      

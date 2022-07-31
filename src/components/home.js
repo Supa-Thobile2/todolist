@@ -1,11 +1,11 @@
 import Login from './login';
-import Register from './register';
+// import Register from './register';
 
 function Home(){
     return (
         <div>
              <Login/>
-             <Register/>
+             {/* <Register/> */}
         </div>
     )
 }
