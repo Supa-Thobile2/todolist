@@ -11,3 +11,30 @@
    
 
 }
+
+.form{
+    justify-content: center;
+    align-items: center;
+}
+
+.form h1{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    text-transform: uppercase;
+    
+}
+
+.form h2{
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left: 20px;
+    
+    
+}
+
+label,span{
+    padding-left: 20px;
+}
+
+input,button{
+    margin-left: 20px;
+}
