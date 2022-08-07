@@ -1,4 +1,4 @@
-import empImg from '../assets/image1.jpg'
+
 import "../css/component.css"
 function Login(){
     return(
