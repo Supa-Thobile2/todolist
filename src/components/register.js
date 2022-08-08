@@ -1,5 +1,11 @@
+import {useHistory} from "react-router-dom"
+import { Link } from "react-router-dom";
 import "../css/component.css"
 function Register(){
+    let history = useHistory();
+    let signUp = (()=>{
+        history.push("/Home")
+    })
     return(
         <div className="container">
             <div className="img">
@@ -15,15 +21,11 @@ function Register(){
             <input type="email" placeholder="Enter your Email here"/><br></br>
             <label for="password">Password</label><br></br>
             <input type="password" placeholder="Enter your Password here"/><br></br>
-            <button type="btn">Login</button><br></br>
-            <span>Already have an account? Log in</span><br></br>
-            <span>
-                OR
-
-            </span><br></br>
-            <span>
-                sign-in with google
-            </span>
+            <button type="btn" onClick={signUp}>Register</button><br></br>
+            <span>Already have an account?</span>
+            {/* <span><Link to={''}>Login</Link></span> */}
+            
+         
 
             </div>
             
