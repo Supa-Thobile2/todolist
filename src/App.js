@@ -1,27 +1,11 @@
-import logo from './logo.svg';
+import React from 'react';
 import './App.css';
-import Login from './components/login';
-import Register from './components/register';
-import Home from './components/home';
-
-import {BrowserRouter as Router, Switch, Route} from 'react-router-dom'
+import TodoList from './components/TodoList';
 
 function App() {
   return (
-    <div className="App">
-       <Router>
-      <Switch>
-        <Route exact path="/" component={Login}></Route>
-        <Route path="/sign-up" component={Register}></Route>
-        <Route path="/home">
-             <Home />
-        </Route>
-      </Switch>
-     
-    </Router> 
-
-      <Home/>
-     
+    <div className='todo-app'>
+      <TodoList />
     </div>
   );
 }
